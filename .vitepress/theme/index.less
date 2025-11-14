@@ -1,0 +1,29 @@
+// 全局主题色
+@theme-color: #268d23;
+@theme-color-dark: #006230;
+@theme-color-light: #7dcf78;
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('./JetBrainsMono-VariableFont_wght.ttf');
+}
+:root {
+    // 文档强调色
+    --vp-c-brand-1: @theme-color;
+    --vp-c-brand-2: @theme-color-dark;
+    --vp-c-brand-3: @theme-color;
+    // 标题颜色
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: linear-gradient(135deg, @theme-color-light, @theme-color);
+    // 代码字体
+    --vp-font-family-mono: 'Jetbrains Mono', ui-monospace, 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+}
+
+kbd {
+    background-color: var(--vp-c-bg-alt);
+    border: solid 1px var(--vp-c-text-3);
+    border-radius: .25rem;
+    font-size: 15px;
+    font-family: var(--vp-font-family-mono);
+    padding: .2em .4em;
+}

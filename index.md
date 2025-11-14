@@ -1,0 +1,34 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "SUSEer Tutorial"
+  text: ""
+  tagline: 为计协的各位新手 SUSEer 准备的学习路线！
+  actions:
+    - theme: brand
+      text: 开始阅读
+      link: /startup/
+    - theme: alt
+      text: 文档地址
+      link: https://github.com/suse-edu-cn/tutorials
+
+features:
+  - title: 🌐 前端
+    details: 构建网页和 Web 网页应用的学习路线！
+    link: /frontend/
+  - title: ⚙️ 后端
+    details: 构建用户数据处理后端程序的学习路线！
+    link: /backend/
+  - title: 🤖 客户端
+    details: 构建面向用户的应用程序的学习路线！
+    link: /client/
+  - title: 🔨 嵌入式
+    details: 构建嵌入式应用程序的学习路线！
+    link: /embedded/
+  - title: 🚀 预备课
+    details: 在开始正式的项目开发之前需要学习的东东
+    link: /startup/
+---
+
