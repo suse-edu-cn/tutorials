@@ -1,0 +1,36 @@
+[{
+    "text": "预备课",
+    "link": "/startup/",
+    "items": [{
+        "text": "Git",
+        "link": "/startup/git/",
+        "items": [{
+            "text": "Git 的初体验",
+            "link": "/startup/git/"
+        },
+        {
+            "text": "提交",
+            "link": "/startup/git/commit"
+        },
+        {
+            "text": "分支",
+            "link": "/startup/git/branch"
+        }]
+    }]
+},
+{
+    "text": "前端",
+    "link": "/frontend/"
+},
+{
+    "text": "后端",
+    "link": "/backend/"
+},
+{
+    "text": "客户端",
+    "link": "/client/"
+},
+{
+    "text": "嵌入式",
+    "link": "/embedded/"
+}]
