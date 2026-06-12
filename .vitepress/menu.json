@@ -32,5 +32,17 @@
 },
 {
     "text": "嵌入式",
-    "link": "/embedded/"
+    "link": "/embedded/",
+    "items": [{
+        "text": "STM32",
+        "link": "/embedded/STM32/",
+        "items": [{
+            "text": "准备工作",
+            "link": "/embedded/STM32/preparation"
+        },
+        {
+            "text": "STM32 的初体验",
+            "link": "/embedded/STM32/hello-world"
+        }]
+    }]
 }]
