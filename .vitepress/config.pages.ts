@@ -35,7 +35,7 @@ export default defineConfig({
         },
         footer: {
             message: '本文档基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 协议</a> 发布',
-            copyright: '&copy; 2025 Project Dept. of OpenAtom Open Source Club at SUSE'
+            copyright: '&copy; 2025-2026 OpenAtom Open Source Club at SUSE'
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/suse-edu-cn/tutorials' }
